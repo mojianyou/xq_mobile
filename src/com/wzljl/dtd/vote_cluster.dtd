@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ATTLIST vote_cluster cid ID #REQUIRED>
+<!ELEMENT vote_cluster (ctopic,cdescription,caddtime,vote_items) >
+<!ELEMENT ctopic (#PCDATA) >
+<!ELEMENT cdescription (#PCDATA) >
+<!ELEMENT caddtime (#PCDATA) >
+<!ELEMENT vote_items (vote_item+) >
+<!ATTLIST vote_item iid ID #REQUIRED>
+<!ELEMENT vote_item (itopic,banner,idescription,widget_style,max_opt,min_opt,beign_time,end_time,vail_style) >
+<!ELEMENT itopic (#PCDATA) >
+<!ELEMENT banner (#PCDATA) >
+<!ELEMENT idescription (#PCDATA) >
+<!ELEMENT widget_style (#PCDATA) >
+<!ELEMENT max_opt (#PCDATA) >
+<!ELEMENT min_opt (#PCDATA) >
+<!ELEMENT beign_time (#PCDATA) >
+<!ELEMENT end_time (#PCDATA) >
+<!ELEMENT vail_style (#PCDATA) >
+
+

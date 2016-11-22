@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE vote_cluster SYSTEM "vote_cluster.dtd" >
+<vote_cluster cid="c1">
+  <ctopic>小区投票</ctopic>
+  <cdescription>投票系统</cdescription>
+  <caddtime>2016-11-18</caddtime>
+  <vote_items>
+     <vote_item iid="i1">
+        <itopic>美德投票</itopic>
+        <banner>file.jpg</banner>
+        <idescription>文明公益</idescription>
+        <widget_style>s</widget_style>
+        <max_opt>10</max_opt>
+        <min_opt>1</min_opt>
+        <beign_time>2016-11-19</beign_time>
+        <end_time>2016-11-30</end_time>
+        <vail_style>d</vail_style>
+     </vote_item>
+     <vote_item iid="i2">
+        <itopic>环境投票</itopic>
+        <banner>fil1e.jpg</banner>
+        <idescription>文明学徒</idescription>
+        <widget_style>s</widget_style>
+        <max_opt>10</max_opt>
+        <min_opt>1</min_opt>
+        <beign_time>2016-11-19</beign_time>
+        <end_time>2016-11-30</end_time>
+        <vail_style>d</vail_style>
+     </vote_item>
+  </vote_items>
+</vote_cluster>
